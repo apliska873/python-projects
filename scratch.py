@@ -1,3 +1,6 @@
+import math
+
+
 def is_perfect_number(number):
     for i in range(2, number):
         divisors_sum = sum([divisor for divisor in range(1, number) if number % divisor == 0])
